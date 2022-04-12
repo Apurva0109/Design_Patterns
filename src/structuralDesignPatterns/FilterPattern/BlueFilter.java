@@ -8,7 +8,7 @@ public class BlueFilter implements FiltersEx {
     @Override
     public List<Purse> meetFilter(List<Purse> purses) {
         for(Purse purse:purses){
-            if(purse.getColour().getClass().getName().equalsIgnoreCase("blue"))
+            if(purse.getColour().getClass().getSimpleName().equalsIgnoreCase("blue"))
                 bluePurces.add(purse);
         }
         return bluePurces;

@@ -9,7 +9,7 @@ public class Purse extends Store {
 
     @Override
     public Colour getColour() {
-        System.out.println("Colour of the Purse is "+colour);
+        //System.out.println("Colour of the Purse is "+colour);
         return colour;
     }
 }

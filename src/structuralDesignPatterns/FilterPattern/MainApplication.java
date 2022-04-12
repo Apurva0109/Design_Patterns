@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MainApplication {
     public static void main(String[] args){
-        Purse bluePurse1 = new Purse(new Blue());
+        Purse bluePurse1 = new Purse(new Red());
         Purse bluePurse2 = new Purse(new Blue());
         Purse bluePurse3 = new Purse(new Blue());
         Purse bluePurse4 = new Purse(new Blue());
